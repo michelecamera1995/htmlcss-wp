@@ -1,0 +1,52 @@
+
+.debughead {
+    border: 1px solid red;
+}
+
+
+.debugcol {
+    border: 1px solid greenyellow;
+ }
+
+.debugsec {
+    border: 1px solid rgb(60, 0, 255);
+}
+    
+ /* COLORI CONTAINER*/
+
+
+.colheader {
+    background-color: #e579e6;
+}
+
+.colsec1 {
+    height: 400px;
+    background-color: #e1d67a;
+}
+
+.colsec2 {
+    height: 600px;
+    background-color: #0983fc;
+}
+
+.colfoot {
+    height: 50px;
+    background-color: #8801fe;
+}
+
+.insideheadsec2 {
+    height: 100px;
+    background-color: #abcfe7;
+}
+
+.insidecolsec2 {
+    height: 77%;
+    background-color: #abcfe7;
+}
+
+.insidecolsec3 {
+    height: 77%;
+    background-color: #abcfe7;
+}
+
+/*FINE  COLORI CONTAINER*/

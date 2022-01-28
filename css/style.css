@@ -13,9 +13,32 @@
     display: table;
 }
 
-/* FINE GENERALI*/
-/* CONTAINER*/
+.tcolor {
+    color: #b3b3b3;
+    font-family: 'Nunito', sans-serif;
+}
 
+.link {
+    text-decoration: none;
+}
+
+/* FINE GENERALI*/
+/* HEADER*/
+
+.logo {
+    height: 60px;
+}
+
+div li {
+    font-size: smaller; 
+    list-style-type: none;
+    display: inline-block;
+    padding: 2px 2px;
+    margin: 10px 2px;
+}
+
+/* FINE HEADER*/
+/* CONTAINER*/
 
 .containerhead {
     height: 100px;

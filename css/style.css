@@ -25,6 +25,17 @@
     color: #ffffff;
 }
 
+.maintitlesize {
+    font-size:28px;
+}
+
+.smalltextsize {
+    font-size:14px;
+    z-index: 3;
+}
+
+
+
 /* FINE GENERALI*/
 /* HEADER*/
 
@@ -52,7 +63,6 @@ div li {
     width: 70%;
     margin: 15px auto;
 }
-
 
 .containerA {
     position:relative;
@@ -108,9 +118,12 @@ div li {
 .containerfoot {
     width: 70%;
     margin:  auto;
+    margin-bottom: 15px;
 }
 
 .sec2head {
+    line-height: 1.0;
+    padding-top: 2%;
     width: 100%;
     margin-bottom: 20px;
 }
@@ -119,6 +132,7 @@ div li {
     width: 25%;
     margin-bottom: 2%;
     float: left;
+    position: relative;
 }
 
 .colmain {
@@ -127,6 +141,38 @@ div li {
     margin-left: 2%;
     margin-bottom: 2%;
     float: left;
+}
+
+.img {
+    z-index: 1;
+    width:260px;
+    border-radius: 5%;
+    position: relative;
+    max-height: 261px;
+}
+
+.banner {
+    width:479px;
+    border-radius: 5%;
+    max-height: 261px;
+    position: relative;
+}
+
+.img1 {
+    width:260px;
+    border-radius: 5%;
+    height: 261px;
+    position: relative;
+}
+
+.foot {
+    text-align: center;
+    font-size: 20px;
+}
+
+span{ 
+   padding-left: 1px;
+     color: red;
 }
 
 /* FINE CONTAINER*/

@@ -13,13 +13,16 @@
     display: table;
 }
 
-.tcolor {
-    color: #b3b3b3;
+.tfont {
     font-family: 'Nunito', sans-serif;
 }
 
-.link {
-    text-decoration: none;
+.txgrey {
+    color: #b3b3b3;
+}
+
+.txwhite {
+    color: #ffffff;
 }
 
 /* FINE GENERALI*/
@@ -37,6 +40,10 @@ div li {
     margin: 10px 2px;
 }
 
+.link {
+    text-decoration: none;
+}
+
 /* FINE HEADER*/
 /* CONTAINER*/
 
@@ -46,10 +53,52 @@ div li {
     margin: 15px auto;
 }
 
+
 .containerA {
+    position:relative;
     width: 70%;
     margin: 15px auto;
+    border-radius: 5%;
+    padding-top: 21%;
+    padding-left: 5%;
+    padding-bottom: 5%;
+    background-image: url(../img/banner.jpg);
+    background-position: center;
 }
+
+.containerA:before {
+    content: " ";
+    z-index: 1;
+    border-radius: 5%;
+    display: inline-block;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgb(0, 0, 0, 0.3);
+  }
+
+  .text {
+    z-index: 2;
+    line-height: 1;
+    width: 500px;
+    top:240px;
+    left: 50px;
+    position: absolute;
+    font-size: 25px;
+    text-align: left;
+  }
+
+  .smalltextunder {
+    z-index: 2;
+    width: 500px;
+    top:290px;
+    left: 50px;
+    position: absolute;
+    font-size: 14px;
+    text-align: left;
+  }
 
 .containerB {
     width: 70%;

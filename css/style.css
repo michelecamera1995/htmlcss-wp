@@ -141,23 +141,30 @@ div li {
     float: left;
 }
 
-.img {
+.imgcol1 {
     z-index: 1;
     width:260px;
     border-radius: 5%;
     max-height: 261px;
 }
 
-.banner {
+.imgcol2 {
     width:479px;
     border-radius: 5%;
     max-height: 261px;
 }
 
-.img1 {
+.imgcol3 {
     border-radius: 5%;
     width:260px;
     height: 261px;
+}
+
+.overlay2 {
+    border-radius: 5%;
+    width:auto;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 .foot {

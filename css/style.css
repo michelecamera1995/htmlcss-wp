@@ -124,7 +124,9 @@ div li {
     line-height: 1.0;
     padding-top: 2%;
     width: 100%;
+    border-radius: 5%;
     margin-bottom: 20px;
+
 }
 
 .col {
@@ -141,29 +143,31 @@ div li {
     float: left;
 }
 
-.imgcol1 {
-    z-index: 1;
-    width:260px;
+.imgcol {
+    width:auto;
+    background-size: cover;
+    background-position: center;
     border-radius: 5%;
-    max-height: 261px;
+    height: 150px;
+    margin-bottom: 5%;
+}
+
+.imgcol1 {
+    background-image: url(../img/img-1.jpg);
 }
 
 .imgcol2 {
-    width:479px;
-    border-radius: 5%;
-    max-height: 261px;
+    background-image: url(../img/banner-2.jpg);
 }
 
 .imgcol3 {
-    border-radius: 5%;
-    width:260px;
-    height: 261px;
+    background-image: url(../img/img-3.jpg);
 }
 
-.overlay2 {
+.overlay {
     border-radius: 5%;
     width:auto;
-    height: auto;
+    height: 150px;
     background-color: rgba(0, 0, 0, 0.3);
 }
 
